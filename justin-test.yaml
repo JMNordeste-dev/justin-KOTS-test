@@ -964,7 +964,7 @@ metadata:
     kots.io/backup: velero
   name: sentry-worker
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: sentry-worker
